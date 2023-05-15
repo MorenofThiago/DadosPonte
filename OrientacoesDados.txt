@@ -1,0 +1,12 @@
+############################# Dados da aceleração vertical do Trem ##################################
+
+
+## OUTPUTS ##
+-> Em cada arquivo .mat, a aceleração vertical está contida no cell array denominados 'Baseline', 'VinteP' e 'CinquentaP', ou seja, 
+sem dano, 20% de dano e 50% de dano, respectivamente.
+
+-> Cada cenário tem dimensão 1x100, que correspondem a um conjunto de 100 sinais de aceleração 
+(isso significa que os 100 sinais foram gerados por 100 passagens de trens, com velocidade diferente para cada passagem). 
+
+-> Há um total de 20000 medições de aceleração vertical para cada passagem do trem. Isso por que a estrutura possui 200 metros e a discretização do sinal de aceleração 
+no domínio do espaço é de  0,01 m, ou seja, para cada centímetro que o trem percorre a estrutura, é medido o valor da aceleração vertical.
